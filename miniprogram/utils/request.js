@@ -7,7 +7,7 @@ export function request(options) {
     data: options.data,
     header: { ...(options.header || {}), "X-WX-SERVICE": app.globalData.serviceName },
     success(res) {
-      let data = res.result;
+      let data = res.data !== undefined ? res.data : res.result;
       if (typeof data === "string") { try { data = JSON.parse(data); } catch (_) {} }
       if (res.statusCode && res.statusCode >= 400) {
         options.fail?.({ errMsg: `云托管返回 ${res.statusCode}`, ...res, data });

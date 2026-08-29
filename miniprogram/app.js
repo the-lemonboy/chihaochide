@@ -1,9 +1,9 @@
 App({
   globalData: {
-    cloudEnv: "prod-d6gkb8nirb8f93b22",
+    cloudEnv: "prod-d8g5iuhjmd3dbd994",
     serviceName: "xiaolinxiaozhengfood"
   },
   onLaunch() {
-    wx.cloud.init({ env: "prod-d6gkb8nirb8f93b22", traceUser: true });
+    wx.cloud.init({ env: "prod-d8g5iuhjmd3dbd994", traceUser: true });
   }
 })
