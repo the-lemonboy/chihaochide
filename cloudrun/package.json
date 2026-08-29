@@ -1,0 +1,1 @@
+{"name":"xiaolinxiaozheng-food-api","private":true,"type":"module","scripts":{"start":"node server.js"},"dependencies":{"better-sqlite3":"^11.8.1"}}
