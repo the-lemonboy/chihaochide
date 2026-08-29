@@ -1,1 +1,9 @@
-App({globalData:{apiBase:"https://请替换为你的后端域名"}})
+App({
+  globalData: {
+    cloudEnv: "prod-d6gkb8nirb8f93b22",
+    serviceName: "xiaolinxiaozhengfood"
+  },
+  onLaunch() {
+    wx.cloud.init({ env: "prod-d6gkb8nirb8f93b22", traceUser: true });
+  }
+})
