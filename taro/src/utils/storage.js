@@ -1,0 +1,3 @@
+export const placesKey="dinner-places";
+export const picksKey="dinner-picks";
+export const iconFor=(tag)=>{const t=tag.toLowerCase();if(/泰|thai|印度|咖喱/.test(t))return "🍛";if(/韩|korean/.test(t))return "🥘";if(/墨西哥|mexican/.test(t))return "🌮";if(/意大利|意式|italian/.test(t))return "🍝";if(/法国|法式|french/.test(t))return "🥐";if(/土耳其|turkish/.test(t))return "🥙";if(/火锅|串串/.test(t))return "🍲";if(/烧烤|烤肉/.test(t))return "🍢";if(/日式|拉面|寿司/.test(t))return "🍜";if(/甜品|蛋糕|奶茶/.test(t))return "🍰";if(/咖啡|饮品|茶/.test(t))return "☕";if(/海鲜/.test(t))return "🦀";if(/西式|汉堡|披萨/.test(t))return "🍔";if(/湘|川|辣/.test(t))return "🌶️";if(/中式|台式|粤|面|饭/.test(t))return "🍚";return "✨"};

@@ -1,8 +1,0 @@
-{
-  "headers": [
-    {
-      "source": "/api/*",
-      "headers": [{ "key": "cache-control", "value": "no-store" }]
-    }
-  ]
-}
